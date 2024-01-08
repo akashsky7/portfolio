@@ -6,7 +6,7 @@ function Home() {
     <div className="flex bg-black text-white min-h-screen justify-center text-center items-center flex-col">
             <div className="flex text-center justify-center flex-col">
                 <h1 className="text-6xl">Hi, I'm Akash<span className="text-myblue text-8xl">.</span></h1>
-                    <p className="text-2xl mt-5">a full stack web developer<span className='text-myblue text-3xl animate-pulse'>_</span></p>
+                    <p className="text-2xl mt-5">MERN stack developer<span className='text-myblue text-3xl animate-pulse'>_</span></p>
             </div> 
             <Link to='/about'>  
                 <div className='mt-10 border rounded-3xl px-4 py-2 flex transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 hover:border-myblue'>
