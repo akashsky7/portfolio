@@ -27,7 +27,7 @@ const Project = () => {
       <table>
         <tbody>
           {[...Array(1)].map((_, rowIndex) => (
-            <tr key={rowIndex} className="flex space-x-48">
+            <tr key={rowIndex} className="flex space-x-48 max-md:space-x-0 max-md:flex-col max-md:items-center">
               {[...Array(3)].map((_, colIndex) => {
                 const cellIndex = rowIndex * 3 + colIndex;
                 const cellData = tableData[cellIndex];
@@ -35,7 +35,7 @@ const Project = () => {
                 return (
                   <td
                     key={colIndex}
-                    className="w-1/3 pt-24 flex flex-col items-center"
+                    className="w-1/3 pt-24 flex flex-col items-center max-md:w-full max-md:items-center"
                   >
                     {/* Render image and content in each cell */}
                     <a

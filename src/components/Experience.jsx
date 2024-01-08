@@ -4,15 +4,15 @@ import { Link } from "react-router-dom";
 
 function Experience() {
   return (
-    <div className="flex flex-row  bg-black text-white text-center p-10 min-h-screen">
-      <div className="w-1/2">
+    <div className="flex flex-row  bg-black text-white text-center p-10 min-h-screen max-md:flex-col max-md:pt-0">
+      <div className="w-1/2 max-md:w-full">
         <h1 className="text-5xl">
           Experience
           <span className="text-myblue text-8xl animate-pulse">.</span>
         </h1>
         <Company />
 
-        <div className="mt-5 ml-72 w-80 border rounded-3xl px-5 py-2 flex transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 hover:border-myblue">
+        <div className="mt-5 ml-72 w-80 max-md:ml-5 border rounded-3xl px-5 py-2 flex transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 hover:border-myblue">
           <a
             href="./Resume-Akash-Kumar-Goswami.pdf"
             target="_blank"
@@ -31,8 +31,7 @@ function Experience() {
           </svg>
         </div>
       </div>
-
-      <div className="w-1/2">
+      <div className="w-1/2 max-md:w-full">
         <h1 className="text-5xl">
           Education<span className="text-myblue text-8xl animate-pulse">.</span>
         </h1>
@@ -52,7 +51,7 @@ function Experience() {
             </div>
           </div>
           <Link to="/projects">
-            <div className="mt-36 border w-52 rounded-3xl px-4 py-2 flex transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 hover:border-myblue">
+            <div className="mt-36 border max-md:mt-10 w-52 rounded-3xl px-4 py-2 flex transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 hover:border-myblue">
               <p>View my projects</p>
               <svg
                 className="inline-block w-6 h-6 ml-6 rotate-90 fill-myblue"

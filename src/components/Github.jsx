@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 function Github() {
   return (
-    <div className="flex flex-col  bg-black text-white text-center p-10 min-h-screen">
+    <div className="flex flex-col  bg-black text-white text-center p-10 min-h-screen max-md:pt-0">
       <h1 className="text-5xl">
           Projects
           <span className="text-myblue text-8xl animate-pulse">.</span>
