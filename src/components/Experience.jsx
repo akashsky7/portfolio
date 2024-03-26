@@ -14,7 +14,7 @@ function Experience() {
 
         <div className="mt-5 ml-72 w-80 max-md:ml-5 border rounded-3xl px-5 py-2 flex transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 hover:border-myblue">
           <a
-            href="./Resume-Akash-Kumar-Goswami.pdf"
+            href="./Akash_Kumar_Goswami.pdf"
             target="_blank"
             className="link-arrow text-decoration-none text-light"
           >

@@ -12,19 +12,13 @@ function Company() {
           />
           <div className="text-left pl-8">
             <h5 className="text-2xl">Accenture</h5>
-            <p className="">Full-time · Jul 2021 - Present</p>
+            <p className="">Full-time · (Jul 2021 - Present)</p>
           </div>
         </div>
         <div className="text-left pl-20 pt-2">
           <ul className="">
             <div className="p-2">
-              <li className="list-disc">Team Lead - (Jun 2022 - Present)</li>
-              <p>Skills: Git, Node.JS, React, JavaScript, Restful APIs, MongoDB</p>
-            </div>
-            <div className="p-2">
-              <li className="list-disc">
-                Senior Developer - (Jul 2021 - Jun 2022)
-              </li>
+              <li className="list-disc">Web Developer - (Jul 2021 - Present)</li>
               <p>Skills: Git, Node.JS, React, JavaScript, Restful APIs, MongoDB</p>
             </div>
           </ul>
